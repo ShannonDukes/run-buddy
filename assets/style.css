@@ -36,14 +36,18 @@ header nav {
     margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 footer {
@@ -179,7 +183,7 @@ section {
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
-  }
+}
 
 .primary-border {
     border-color: #fce138;
@@ -273,18 +277,17 @@ section {
 .contact-info h3 {
     color: #fce138;
     font-size: 32px;
-  }
-  
-  .contact-info p, 
-  .contact-info address {
+}
+
+.contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
-  }
-  
-  .contact-info a {
+}
+
+.contact-info a {
     color: #fce138;
-  }
-  
-  /* REACH OUT STYLES END */
+}
+
+/* REACH OUT STYLES END */
