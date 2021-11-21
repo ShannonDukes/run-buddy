@@ -26,7 +26,7 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url('https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg');
+    background-image: url('./images/hero-bg.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -105,7 +105,7 @@ section {
 /* homepage hero */
 
 .hero {
-    background-image: url('https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg');
+    background-image: url('./images/hero-bg.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
